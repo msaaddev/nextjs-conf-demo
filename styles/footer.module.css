@@ -1,0 +1,32 @@
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.container p {
+	width: 300px;
+	text-align: center;
+	font-weight: 600;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 18px 40px;
+	border: solid 1px rgb(171, 150, 252);
+	border-radius: 3px;
+	color: rgb(171, 150, 252);
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.container p:hover {
+	background-color: rgb(171, 150, 252);
+	color: #000000;
+}
+
+/* responsive styles */
+@media screen and (max-width: 600px) {
+
+	.container {
+		margin-bottom: 20px;
+	}
+
+ }
