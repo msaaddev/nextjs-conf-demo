@@ -79,10 +79,6 @@
 
 /* responsive styles */
 @media screen and (max-width: 600px) {
-	.container {
-		height: 100%;
-	}
-
 	.heading {
 		width: 400px;
 	}
