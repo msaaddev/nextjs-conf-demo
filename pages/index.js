@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -9,10 +10,14 @@ export default function Home() {
 			</div>
 			<div className={styles.wrapper}>
 				<div className={styles.button}>
-					<button>{`<img>`}</button>
+					<Link href="/img">
+						<button>{`<img>`}</button>
+					</Link>
 				</div>
 				<div className={styles.button}>
-					<button>{`<Image/>`}</button>
+					<Link href="/image">
+						<button>{`<Image/>`}</button>
+					</Link>
 				</div>
 				<div className={styles.button}>
 					<button>{`Fetching from API`}</button>
