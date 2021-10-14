@@ -1,9 +1,11 @@
-const image = () => {
+import Header from '../components/common/header';
+
+const ImageComponent = () => {
 	return (
 		<div>
-			<h2>hello</h2>
+			<Header text="Image Component" />
 		</div>
 	);
 };
 
-export default image;
+export default ImageComponent;

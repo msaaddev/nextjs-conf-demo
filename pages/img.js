@@ -1,7 +1,9 @@
+import Header from '../components/common/header';
+
 const img = () => {
 	return (
 		<div>
-			<h2>hello</h2>
+			<Header text="img HTML tag" />
 		</div>
 	);
 };
