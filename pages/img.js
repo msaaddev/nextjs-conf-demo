@@ -1,9 +1,23 @@
 import Header from '../components/common/header';
+import names from '../utils/names';
+import styles from '../styles/common.module.css';
 
 const img = () => {
 	return (
 		<div>
 			<Header text="img HTML tag" />
+			<div className={styles.wrapper}>
+				{names.map((picture) => {
+					return (
+						<img
+							src={`./images/${picture}`}
+							alt={picture}
+							key={names.indexOf(picture)}
+							width="80%"
+						/>
+					);
+				})}
+			</div>
 		</div>
 	);
 };

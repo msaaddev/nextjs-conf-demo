@@ -3,7 +3,7 @@ import Head from 'next/head';
 const SEO = () => {
 	return (
 		<Head>
-			<title>Image Optimization</title>
+			<title>Image Optimization with Next.js</title>
 			<link rel="preconnect" href="https://fonts.googleapis.com" />
 			<link
 				rel="preconnect"

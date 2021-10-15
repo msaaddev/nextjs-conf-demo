@@ -1,4 +1,4 @@
-export default picNames = [
+const names = [
 	'abhinav-0VncAP1HQLk-unsplash.jpg',
 	'allyson-beaucourt-XhwM-gcQubA-unsplash.jpg',
 	'brian-beckwith-YOj86l1lYdk-unsplash.jpg',
@@ -34,3 +34,5 @@ export default picNames = [
 	'trevor-gerzen-qBbqAxyei3I-unsplash.jpg',
 	'ursa-bavcar-6O4zf9lga6Q-unsplash.jpg'
 ];
+
+export default names;
