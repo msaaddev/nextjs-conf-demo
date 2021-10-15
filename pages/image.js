@@ -20,7 +20,7 @@ const ImageComponent = () => {
 								width={1000}
 								height={800}
 								loading="lazy"
-								quality={75}
+								quality={50}
 							/>
 						</div>
 					);
