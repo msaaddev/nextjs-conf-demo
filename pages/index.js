@@ -6,7 +6,10 @@ export default function Home() {
 		<div className={styles.container}>
 			<div className={styles.heading}>
 				<h2>Next.js Conf 2021</h2>
-				<h3>Let's Talk About Image Optimization</h3>
+				<h3>
+					Let's Talk About <span>Image</span>{' '}
+					<span>Optimization</span>
+				</h3>
 			</div>
 			<div className={styles.wrapper}>
 				<div className={styles.button}>

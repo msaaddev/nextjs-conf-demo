@@ -13,7 +13,7 @@
 	font-size: 3.5rem;
 	font-weight: 900;
 	margin: 0;
-	background-color: #fff;
+	/* background-color: #fff;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 	background-clip: text;
@@ -21,14 +21,19 @@
 		90deg,
 		rgba(8, 121, 230, 1),
 		rgba(9, 192, 197, 1)
-	);
+	); */
+	color: #FFFDFB;
 	padding-bottom: 20px;
+}
+
+.container h2 span {
+	color: #1A67F8;
 }
 
 .container h3 {
 	font-size: 2rem;
 	margin: 0;
-	background-color: #fff;
+	/* background-color: #fff;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 	background-clip: text;
@@ -36,7 +41,8 @@
 		90deg,
 		rgb(151, 41, 36) 10%,
 		rgb(253, 166, 44) 80%
-	);
+	); */
+	color:  #C9D5EE;
 }
 
 /* responsive styles */
