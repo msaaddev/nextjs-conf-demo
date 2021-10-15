@@ -38,3 +38,10 @@
 		rgb(253, 166, 44) 80%
 	);
 }
+
+/* responsive styles */
+@media screen and (max-width: 600px) {
+	.container h2 {
+		font-size: 2.2rem;
+	}
+}
