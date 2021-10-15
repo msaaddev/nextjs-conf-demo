@@ -65,8 +65,8 @@
 }
 
 .button button {
-	width: 200px;
-	height: 130px;
+	width: 280px;
+	height: 80px;
 	outline: none;
 	font-size: 1.2rem;
 	font-weight: 700;
@@ -90,11 +90,12 @@
 /* responsive styles */
 @media screen and (max-width: 600px) {
 	.heading {
+		flex: 0.8;
 		width: 400px;
 	}
 
 	.heading h2 {
-		margin-top: 100px;
+		margin-top: 40px;
 		font-size: 2.5rem;
 	}
 	.heading h3 {
@@ -102,6 +103,7 @@
 	}
 
 	.wrapper {
+		padding-top: 0;
 		flex-direction: column;
 	}
 

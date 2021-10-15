@@ -22,9 +22,9 @@ export default function Home() {
 						<button>{`<Image/>`}</button>
 					</Link>
 				</div>
-				<div className={styles.button}>
+				{/* <div className={styles.button}>
 					<button>{`Fetching from API`}</button>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);
