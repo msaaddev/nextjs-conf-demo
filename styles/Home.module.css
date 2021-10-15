@@ -72,12 +72,12 @@
 	font-weight: 700;
 	font-family: 'Raleway', sans-serif;
 	cursor: pointer;
-	color:  #C9D5EE;
+	color:  #292A44;
 	border-radius: 3px;
 	border: none;
 	/* background-color: rgb(171, 150, 252);
 	box-shadow: 0 0px 10px rgba(171, 150, 252); */
-	background-color:#1A67F8;
+	background-color:#B46CF8;
 	transition: all 0.2s;
 }
 
