@@ -18,7 +18,7 @@ const Header = ({ text, working, word }) => {
 					<Link href={`/${word}`}>
 						<h2>
 							Working of <span>{word}</span>{' '}
-							{word !== 'tag' ? 'Component' : 'tag'}
+							{word !== 'img' ? 'Component' : 'tag'}
 						</h2>
 					</Link>
 				</>
