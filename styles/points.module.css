@@ -1,0 +1,20 @@
+.point {
+	padding: 5px 40px;
+	width: 700px;
+	border: solid 1px #1A67F8;
+	border-radius: 4px;
+	margin-bottom: 25px;
+}
+
+.point p {
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	line-height: 1.6rem;
+	color: #C9D5EE;
+}
+
+@media screen and (max-width: 600px) {
+	.point {
+		width: 85vw;
+	}
+}

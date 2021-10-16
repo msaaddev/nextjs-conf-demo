@@ -1,9 +1,15 @@
 import Header from '../../components/common/header';
+import Point from '../../components/common/Point';
+import styles from '../../styles/learn.module.css';
 
 const Img = () => {
 	return (
-		<div>
+		<div className={styles.container}>
 			<Header working={true} word="img" />
+			<Point
+				info="Lorem Ipsum is simply dummy text of the printing and
+					typesetting industry."
+			/>
 		</div>
 	);
 };
