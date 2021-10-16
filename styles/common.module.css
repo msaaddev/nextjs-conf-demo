@@ -4,9 +4,6 @@
 	align-items: center;
 }
 
-.wrapper img:first-child {
-	margin-top: 50px;
-}
 
 .image, .wrapper img {
 	margin-bottom: 20px;

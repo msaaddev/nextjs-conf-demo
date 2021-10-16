@@ -1,11 +1,13 @@
 import Header from '../components/common/header';
 import names from '../utils/names';
 import styles from '../styles/common.module.css';
+import Working from '../components/common/working';
 
 const img = () => {
 	return (
 		<div>
 			<Header text="img HTML tag" />
+			<Working link="/working/img" />
 			<div className={styles.wrapper}>
 				{names.map((picture) => {
 					return (

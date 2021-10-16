@@ -18,13 +18,10 @@ export default function Home() {
 					</Link>
 				</div>
 				<div className={styles.button}>
-					<Link href="/image">
+					<Link href="/Image">
 						<button>{`<Image/>`}</button>
 					</Link>
 				</div>
-				{/* <div className={styles.button}>
-					<button>{`Fetching from API`}</button>
-				</div> */}
 			</div>
 		</div>
 	);
