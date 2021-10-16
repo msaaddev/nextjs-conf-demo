@@ -3,7 +3,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 250px;
+	height: 230px;
 	text-align: center;
 }
 
@@ -43,6 +43,7 @@
 		rgb(253, 166, 44) 80%
 	); */
 	color:  #C9D5EE;
+	margin-bottom: 0;
 }
 
 /* responsive styles */
