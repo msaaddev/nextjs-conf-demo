@@ -15,7 +15,7 @@ const Header = ({ text, working, word }) => {
 				</>
 			) : (
 				<>
-					<Link href={`/${word}`}>
+					<Link href={`/${word.toLowerCase()}`}>
 						<h2>
 							Working of <span>{word}</span>{' '}
 							{word !== 'img' ? 'Component' : 'tag'}
