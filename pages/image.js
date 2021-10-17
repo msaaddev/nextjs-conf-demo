@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Header from '../components/common/header';
+import Header from '../components/common/Header';
 import names from '../utils/names';
 import styles from '../styles/common.module.css';
 import Working from '../components/common/working';

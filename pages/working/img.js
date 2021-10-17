@@ -1,4 +1,4 @@
-import Header from '../../components/common/header';
+import Header from '../../components/common/Header';
 import Point from '../../components/common/Point';
 import styles from '../../styles/learn.module.css';
 
