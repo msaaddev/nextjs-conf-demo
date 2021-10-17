@@ -1,4 +1,4 @@
-import Footer from './footer';
+import Footer from './Footer';
 import SEO from './SEO';
 
 const Layout = ({ children }) => {
