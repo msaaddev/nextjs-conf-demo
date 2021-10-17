@@ -15,7 +15,8 @@ const img = () => {
 							src={`./images/${picture}`}
 							alt={picture}
 							key={names.indexOf(picture)}
-							width="80%"
+							width="1000px"
+							height="800px"
 						/>
 					);
 				})}

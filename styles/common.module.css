@@ -9,3 +9,11 @@
 	margin-bottom: 20px;
 	border: solid 1px #ffffff;
 }
+
+@media screen and (max-width: 600px) {
+	.wrapper img {
+		width: 100vw;
+		height: 300px;
+	}
+
+ }
