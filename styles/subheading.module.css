@@ -9,3 +9,10 @@
 	color:  #C9D5EE;
 	margin: 20px 0;
 }
+
+/* responsive styles */
+@media screen and (max-width: 600px) {
+	.container {
+		width: 85vw;
+	}
+}
