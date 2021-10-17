@@ -10,7 +10,7 @@ const ImageComponent = () => {
 			<Header text="Image Component" />
 			<Working link="/working/image" />
 			<div className={styles.wrapper}>
-				{names.map((picture, index) => {
+				{names.map((picture) => {
 					return (
 						<div
 							key={names.indexOf(picture)}
@@ -24,11 +24,6 @@ const ImageComponent = () => {
 								height={800}
 								placeholder="blur"
 								blurDataURL={`/images/${picture}`}
-								loading={
-									names.indexOf(picture) === 1
-										? 'eager'
-										: 'lazy'
-								}
 							/>
 						</div>
 					);
