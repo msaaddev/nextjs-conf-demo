@@ -22,7 +22,8 @@ const ImageComponent = () => {
 								width={1000}
 								height={800}
 								loading="lazy"
-								quality={50}
+								placeholder="blur"
+								blurDataURL={`/images/${picture}`}
 							/>
 						</div>
 					);
