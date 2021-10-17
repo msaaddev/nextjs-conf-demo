@@ -24,14 +24,11 @@ const names = [
 	'mohammad-alizade-CDu0x1Aiils-unsplash.jpg',
 	'mushegh-hakobyan-DOOSi8EQuwQ-unsplash.jpg',
 	'nicola-d-anna-Q6-2GA0Mqnc-unsplash.jpg',
-	'nils-leonhardt-R8oXlN-0JIQ-unsplash.jpg',
 	'omer-salom-LoijtQXXNhs-unsplash.jpg',
 	'ott-erik-eendra-bS0Fyu-z1l0-unsplash.jpg',
-	'ryan-porter-6RuNmpIio4U-unsplash.jpg',
 	'sasha-matic-1-269RXntD4-unsplash.jpg',
 	'shivam-baraik-hHLsy4Tx_5g-unsplash.jpg',
 	'thomas-claeys-SrbXjbo-XbQ-unsplash.jpg',
-	'trevor-gerzen-qBbqAxyei3I-unsplash.jpg',
 	'ursa-bavcar-6O4zf9lga6Q-unsplash.jpg'
 ];
 
