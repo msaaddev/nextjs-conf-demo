@@ -22,7 +22,6 @@ const ImageComponent = () => {
 								quality={50}
 								width={1000}
 								height={800}
-								layout="responsive"
 								placeholder="blur"
 								blurDataURL={`/images/${picture}`}
 								loading={
