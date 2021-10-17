@@ -1,0 +1,11 @@
+.container {
+	display: flex;
+	justify-content: flex-start;
+	width: 700px;
+}
+
+.container h3 {
+	font-size: 2.5rem;
+	color:  #C9D5EE;
+	margin: 20px 0;
+}
