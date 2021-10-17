@@ -3,7 +3,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 230px;
+	height: 250px;
 	text-align: center;
 }
 
@@ -33,6 +33,7 @@
 .container h3 {
 	font-size: 2rem;
 	margin: 0;
+	margin-bottom: 10px;
 	/* background-color: #fff;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
@@ -43,7 +44,6 @@
 		rgb(253, 166, 44) 80%
 	); */
 	color:  #C9D5EE;
-	margin-bottom: 0;
 }
 
 /* responsive styles */
