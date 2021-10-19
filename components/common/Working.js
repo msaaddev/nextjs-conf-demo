@@ -3,11 +3,13 @@ import Link from 'next/link';
 
 const Working = ({ link }) => {
 	return (
-		<Link href={link}>
-			<div className={styles.working}>
-				<button>How It Works</button>
-			</div>
-		</Link>
+		<div className={styles.working}>
+			<Link href={link}>
+				<a>
+					<button>How It Works</button>
+				</a>
+			</Link>
+		</div>
 	);
 };
 

@@ -14,12 +14,16 @@ export default function Home() {
 			<div className={styles.wrapper}>
 				<div className={styles.button}>
 					<Link href="/img">
-						<button>{`<img>`}</button>
+						<a>
+							<button>{`<img>`}</button>
+						</a>
 					</Link>
 				</div>
 				<div className={styles.button}>
 					<Link href="/image">
-						<button>{`<Image/>`}</button>
+						<a>
+							<button>{`<Image/>`}</button>
+						</a>
 					</Link>
 				</div>
 			</div>

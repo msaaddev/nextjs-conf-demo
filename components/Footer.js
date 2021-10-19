@@ -5,7 +5,9 @@ const Footer = () => {
 	return (
 		<div className={styles.container}>
 			<Link href="https://twitter.com/msaaddev">
-				<p>Made by Saad</p>
+				<a>
+					<p>Made by Saad</p>
+				</a>
 			</Link>
 		</div>
 	);

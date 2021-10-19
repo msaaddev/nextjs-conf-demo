@@ -7,20 +7,24 @@ const Header = ({ text, working, word }) => {
 			{!working ? (
 				<>
 					<Link href="/">
-						<h2>
-							Image <span>Optimization</span> With Next.js
-						</h2>
+						<a>
+							<h2>
+								Image <span>Optimization</span> With Next.js
+							</h2>
+						</a>
 					</Link>
 					<h3>{text}</h3>
 				</>
 			) : (
 				<>
-					<Link href={`/${word.toLowerCase()}`}>
-						<h2>
-							Working of <span>{word}</span>{' '}
-							{word !== 'img' ? 'Component' : 'tag'}
-						</h2>
-					</Link>
+					<h2>
+						<Link href={`/${word.toLowerCase()}`}>
+							<a>
+								Working of <span>{word}</span>{' '}
+								{word !== 'img' ? 'Component' : 'tag'}
+							</a>
+						</Link>
+					</h2>
 				</>
 			)}
 		</div>
